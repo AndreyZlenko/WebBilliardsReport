@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BilliardsReport.Domain", "B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilliardsReport.Domain.Models", "BilliardsReport.Domain.Models\BilliardsReport.Domain.Models.csproj", "{47165BD4-D871-424F-93FF-4B794D92CD14}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilliardsReport.Domain", "BilliardsReport.Domain\BilliardsReport.Domain.csproj", "{82803062-AC92-4801-973E-3FF856E78BE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilliardsReport.Domain.Interfaces", "BilliardsReport.Domain.Interfaces\BilliardsReport.Domain.Interfaces.csproj", "{7FC253BE-BC4D-46A4-8B23-A5014344CC0A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,11 +27,21 @@ Global
 		{47165BD4-D871-424F-93FF-4B794D92CD14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47165BD4-D871-424F-93FF-4B794D92CD14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47165BD4-D871-424F-93FF-4B794D92CD14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82803062-AC92-4801-973E-3FF856E78BE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82803062-AC92-4801-973E-3FF856E78BE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82803062-AC92-4801-973E-3FF856E78BE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82803062-AC92-4801-973E-3FF856E78BE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FC253BE-BC4D-46A4-8B23-A5014344CC0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FC253BE-BC4D-46A4-8B23-A5014344CC0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FC253BE-BC4D-46A4-8B23-A5014344CC0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FC253BE-BC4D-46A4-8B23-A5014344CC0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{47165BD4-D871-424F-93FF-4B794D92CD14} = {C1FB86F3-8AB6-4B1A-A577-8207EA43C005}
+		{82803062-AC92-4801-973E-3FF856E78BE8} = {C1FB86F3-8AB6-4B1A-A577-8207EA43C005}
+		{7FC253BE-BC4D-46A4-8B23-A5014344CC0A} = {C1FB86F3-8AB6-4B1A-A577-8207EA43C005}
 	EndGlobalSection
 EndGlobal
