@@ -51,11 +51,15 @@
   <ItemGroup>
     <Compile Include="Context\HallContextEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\BillRepository.cs" />
     <Compile Include="Repositories\DiscountCardRepository.cs" />
     <Compile Include="Repositories\GameHallRepository.cs" />
+    <Compile Include="Repositories\GameTariffRepository.cs" />
     <Compile Include="Repositories\HallOwnerRepository.cs" />
     <Compile Include="Repositories\HallStatisticsRepository.cs" />
+    <Compile Include="Repositories\TableCategoryRepository.cs" />
     <Compile Include="Repositories\TableRepository.cs" />
+    <Compile Include="Repositories\TableStatisticsRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BilliardsReport.Domain.Interfaces\BilliardsReport.Domain.Interfaces.csproj">
