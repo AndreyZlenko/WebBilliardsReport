@@ -13,5 +13,8 @@ namespace BilliardsReport.WcfWebService
     {
         [OperationContract]
         string Message();
+
+        [OperationContract]
+        int Factorial(int number);
     }
 }

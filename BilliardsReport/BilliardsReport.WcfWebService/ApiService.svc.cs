@@ -12,6 +12,14 @@ namespace BilliardsReport.WcfWebService
     // NOTE: In order to launch WCF Test Client for testing this service, please select ApiService.svc or ApiService.svc.cs at the Solution Explorer and start debugging.
     public class ApiService : IApiService
     {
+        public int Factorial(int number)
+        {
+            for (int i = number - 1; i > 0; --i)
+                number *= i;
+
+            return number;
+        }
+
         [WebGet(UriTemplate = "/Message", ResponseFormat = WebMessageFormat.Json)]
         public string Message()
         {
