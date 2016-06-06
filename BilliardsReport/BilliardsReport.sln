@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilliardsReport.Web", "BilliardsReport.Web\BilliardsReport.Web.csproj", "{AAC176F1-A0FB-4F31-B808-DDA182B1CCB2}"
 EndProject
@@ -12,8 +12,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilliardsReport.Domain", "BilliardsReport.Domain\BilliardsReport.Domain.csproj", "{82803062-AC92-4801-973E-3FF856E78BE8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilliardsReport.Domain.Interfaces", "BilliardsReport.Domain.Interfaces\BilliardsReport.Domain.Interfaces.csproj", "{7FC253BE-BC4D-46A4-8B23-A5014344CC0A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilliardsReport.WcfWebService", "BilliardsReport.WcfWebService\BilliardsReport.WcfWebService.csproj", "{88D10CD7-4FF4-426F-A04E-98C5CCAF4290}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,10 +35,6 @@ Global
 		{7FC253BE-BC4D-46A4-8B23-A5014344CC0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FC253BE-BC4D-46A4-8B23-A5014344CC0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FC253BE-BC4D-46A4-8B23-A5014344CC0A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{88D10CD7-4FF4-426F-A04E-98C5CCAF4290}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{88D10CD7-4FF4-426F-A04E-98C5CCAF4290}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{88D10CD7-4FF4-426F-A04E-98C5CCAF4290}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{88D10CD7-4FF4-426F-A04E-98C5CCAF4290}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
