@@ -6,6 +6,8 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.OAuth;
 using Owin;
 using BilliardsReport.Authentification.Providers;
+using BilliardsReport.Authentification.Models;
+using BilliardsReport.Authentification.Domain;
 
 namespace BilliardsReport.Authentification
 {

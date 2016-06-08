@@ -1,1 +1,8 @@
 http://www.developer.com/net/microsoft-unity-framework-a-peek.html
+
+
+//==================== Front =============================
+
+http://materializecss.com/forms.html
+http://www.tutorialsteacher.com/angularjs/angularjs-tutorials
+https://docs.angularjs.org/tutorial

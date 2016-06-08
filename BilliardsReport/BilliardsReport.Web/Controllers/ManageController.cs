@@ -7,6 +7,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using BilliardsReport.Web.Models;
+using BilliardsReport.Authentification;
 
 namespace BilliardsReport.Web.Controllers
 {
