@@ -28,7 +28,7 @@ namespace BilliardsReport.Authentification.Providers
                 {
                     context.Validated();
                 }
-                else if (context.ClientId == "web")
+                else if (context.ClientId == Constants.Authentification.PublicClientId)
                 {
                     var expectedUri = new Uri(context.Request.Uri, "/");
                     context.Validated(expectedUri.AbsoluteUri);

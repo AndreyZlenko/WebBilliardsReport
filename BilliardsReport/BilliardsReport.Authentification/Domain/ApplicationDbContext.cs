@@ -6,7 +6,7 @@ namespace BilliardsReport.Authentification.Domain
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base(Constants.ConnectionString.Identity, throwIfV1Schema: false)
+            : base(Constants.Authentification.ConnectionStringName, throwIfV1Schema: false)
         {
         }
 

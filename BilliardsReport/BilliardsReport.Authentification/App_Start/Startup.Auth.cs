@@ -16,12 +16,12 @@ namespace BilliardsReport.Authentification
         // Enable the application to use OAuthAuthorization. You can then secure your Web APIs
         static Startup()
         {
-            PublicClientId = "web";
+            PublicClientId = Constants.Authentification.PublicClientId;
 
             OAuthOptions = new OAuthAuthorizationServerOptions
             {
-                TokenEndpointPath = new PathString("/Token"),
-                AuthorizeEndpointPath = new PathString("/Account/Authorize"),
+                TokenEndpointPath = new PathString(Constants.Authentification.TokenEndpointPath),
+                AuthorizeEndpointPath = new PathString(Constants.Authentification.AuthorizeEndpointPath),
                 Provider = new ApplicationOAuthProvider(PublicClientId),
                 AccessTokenExpireTimeSpan = TimeSpan.FromDays(14),
                 AllowInsecureHttp = true
@@ -44,7 +44,7 @@ namespace BilliardsReport.Authentification
             app.UseCookieAuthentication(new CookieAuthenticationOptions
             {
                 AuthenticationType = DefaultAuthenticationTypes.ApplicationCookie,
-                LoginPath = new PathString("/Account/Login"),
+                LoginPath = new PathString(Constants.Authentification.LoginPath),
                 Provider = new CookieAuthenticationProvider
                 {
                     // Enables the application to validate the security stamp when the user logs in.
